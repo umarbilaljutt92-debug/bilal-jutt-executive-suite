@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/bilal-jutt-executive-suite/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
